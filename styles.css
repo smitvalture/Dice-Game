@@ -1,50 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
 
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+	width: 70%;
+	margin: auto;
+	text-align: center;
 }
 
 .dice {
-  text-align: center;
-  display: inline-block;
+	text-align: center;
+	display: inline-block;
 
 }
 
 body {
-  background: linear-gradient(to bottom, #5d326c, #350048);
+	background: linear-gradient(to bottom, #5d326c, #350048);
 }
 
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #31735d;
+	margin: 30px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 5px 0 #232931;
+	font-size: 8rem;
+	color: #31735d;
 }
 
 p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+	font-size: 2rem;
+	color: #4ECCA3;
+	font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+	width: 80%;
 }
 
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+	margin-top: 5%;
+	color: #EEEEEE;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
 
 }
 
 .container-btn {
 	width: 1000px;
-  	margin: 30px auto;
+	margin: 30px auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -122,7 +122,10 @@ footer {
 	transition-delay: 0.5;
 }
 
-.container-btn .btn:hover::before /*lightup button*/ {
+.container-btn .btn:hover::before
+
+/*lightup button*/
+	{
 	bottom: 0;
 	height: 50%;
 	width: 80%;
@@ -143,33 +146,36 @@ footer {
 	transition-delay: 0.5;
 }
 
-.container-btn .btn:hover::after /*lightup button*/ {
+.container-btn .btn:hover::after
+
+/*lightup button*/
+	{
 	top: 0;
 	height: 50%;
 	width: 80%;
 	border-radius: 30px;
 }
 
-.container-btn .btn:nth-child(1)::before, /*chnage 1*/
+.container-btn .btn:nth-child(1)::before,
+/*chnage 1*/
 .container-btn .btn:nth-child(1)::after {
 	background: #ff1f71;
 	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
 		0 0 60px #ff1f71;
 }
 
-.container-btn .btn:nth-child(2)::before, /* 2*/
+.container-btn .btn:nth-child(2)::before,
+/* 2*/
 .container-btn .btn:nth-child(2)::after {
 	background: #2db2ff;
 	box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
 		0 0 60px #2db2ff;
 }
 
-.container-btn .btn:nth-child(3)::before, /* 3*/
+.container-btn .btn:nth-child(3)::before,
+/* 3*/
 .container-btn .btn:nth-child(3)::after {
 	background: #1eff45;
 	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
 		0 0 60px #1eff45;
 }
-
-
-
